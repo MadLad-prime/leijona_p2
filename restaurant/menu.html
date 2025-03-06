@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu - Nairobi Eats</title>
+  <link rel="stylesheet" href="restaurant.css">
+  
+</head>
+<body>
+  <header>
+    <div class="logo">Nairobi Eats</div>
+    <nav>
+      <ul>
+        <li><a href="#index">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="slideshow">
+    <div class="slide-container">
+      <img src="images/slider1.jpeg" class="slide" alt="Restaurant Interior">
+      <img src="images/slider2.jpeg" class="slide" alt="Special Dish">
+      <img src="images/slider3.jpeg" class="slide" alt="Chef Preparing Food">
+      <img src="images/slider4.jpeg" class="slide" alt="Restaurant Atmosphere">
+    </div>
+    <div class="dots"></div>
+  </div>
+
+  <section id="menu" class="menu">
+    <div class="menu-content">
+      <h2 class="menu-title">Our Menu</h2>
+      <div class="menu-dropdown">
+        <button class="dropdown-button">Select Category</button>
+        <div class="dropdown-content">
+          <a href="#chips">Chips</a>
+          <a href="#burgers">Burgers</a>
+          <a href="#pizzas">Pizzas</a>
+        </div>
+      </div>
+      <div class="menu-items">
+        <h3 class="category-title" id="chips">Chips</h3>
+        <ul class="menu-list">
+          <li class="menu-item"><span class="dish-name">Regular Chips</span> - <span class="price">KES 200</span></li>
+          <li class="menu-item"><span class="dish-name">Cheesy Chips</span> - <span class="price">KES 300</span></li>
+          <li class="menu-item"><span class="dish-name">Spicy Chips</span> - <span class="price">KES 250</span></li>
+        </ul>
+        <h3 class="category-title" id="burgers">Burgers</h3>
+        <ul class="menu-list">
+          <li class="menu-item"><span class="dish-name">Classic Burger</span> - <span class="price">KES 400</span></li>
+          <li class="menu-item"><span class="dish-name">Cheeseburger</span> - <span class="price">KES 450</span></li>
+          <li class="menu-item"><span class="dish-name">Spicy Burger</span> - <span class="price">KES 500</span></li>
+        </ul>
+        <h3 class="category-title" id="pizzas">Pizzas</h3>
+        <ul class="menu-list">
+          <li class="menu-item"><span class="dish-name">Margherita</span> - <span class="price">KES 600</span></li>
+          <li class="menu-item"><span class="dish-name">Pepperoni</span> - <span class="price">KES 700</span></li>
+          <li class="menu-item"><span class="dish-name">Vegetarian</span> - <span class="price">KES 650</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer class="main-footer">
+    <div class="footer-content">
+      <div class="footer-bottom">
+        <p>&copy; 2024 Nairobi Eats. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="C:\Users\dudet\OneDrive\Desktop\restaurant\menu.js"></script>
+</body>
+</html>

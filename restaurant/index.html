@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nairobi Eats</title>
+  <link rel="stylesheet" href="restaurant.css">
+</head>
+<body>
+  <header>
+    <div class="logo"><a href="index.html">Nairobi Eats</a></div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <h1>Welcome to Nairobi Eats</h1>
+        <p>Serving the best chips, burgers, and pizzas in town!</p>
+        <a href="#menu" class="cta-button">Order Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="menu" class="menu">
+    <div class="menu-content">
+      <h2 class="menu-title">Our Menu</h2>
+      <div class="menu-dropdown">
+        <button class="dropdown-button">Select Category</button>
+        <div class="dropdown-content">
+          <a href="#chips">Chips</a>
+          <a href="#burgers">Burgers</a>
+          <a href="#pizzas">Pizzas</a>
+        </div>
+      </div>
+      <!-- ...existing menu items... -->
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="about-content">
+      <h2>About Us</h2>
+      <p>Welcome to Nairobi Eats, where culinary excellence meets warm hospitality. Since our establishment in 2015, we've been dedicated to bringing the finest dining experience to our cherished customers.</p>
+      <p>Our restaurant combines traditional flavors with modern cooking techniques, creating an unforgettable dining experience. Each dish is crafted with care using the freshest ingredients sourced from local suppliers.</p>
+      <h3>Why Choose Us?</h3>
+      <ul>
+        <li>Fresh, locally-sourced ingredients selected daily by our expert chefs</li>
+        <li>Award-winning culinary team with international experience</li>
+        <li>Warm, inviting atmosphere perfect for both casual dining and special occasions</li>
+        <li>Commitment to sustainable practices and supporting local farmers</li>
+        <li>Regular menu updates featuring seasonal specialties</li>
+      </ul>
+      <p>Our team of passionate chefs brings together decades of culinary expertise, ensuring that every plate that leaves our kitchen meets our high standards of excellence.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+      <p>Email: info@nairobi-eats.com</p>
+      <p>Phone: +254 700 123 456</p>
+    </div>
+    <form class="contact-form">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer class="main-footer">
+    <div class="footer-content">
+      <div class="footer-bottom">
+        <p>&copy; 2023 Nairobi Eats. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="restaurant.js"></script>
+</body>
+</html>
